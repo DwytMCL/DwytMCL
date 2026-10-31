@@ -15,8 +15,20 @@ I'm a Computer Engineering student at **Mapúa Malayan Colleges Laguna**, explor
 
 [Try KD Photo Booth](https://kdphotobooth.vercel.app) · [Open Genshin Guide](https://genshin-guide-henna.vercel.app)
 
+## AI agent tools
+
+MCP servers that let Claude and other AI agents use real websites through your own signed-in browser, with no API keys. They find page elements by accessible role and name, so they keep working when a site's layout changes.
+
+| Project | What it does |
+| --- | --- |
+| [anysite-mcp](https://github.com/DwytMCL/anysite-mcp) | Turns any website into MCP tools, and saves completed tasks as reusable shortcuts. |
+| [gemini-mcp](https://github.com/DwytMCL/gemini-mcp) | Lets Claude use the Google Gemini web app with a normal Google account. |
+| [notebooklm-mcp](https://github.com/DwytMCL/notebooklm-mcp) | Lets Claude use Google NotebookLM with a free account. |
+
+I also maintain [a fork of Sill](https://github.com/DwytMCL/sill), a Swift app that streams Mac windows to an iPhone or iPad, with support for Intel and AMD Macs.
+
 ## Tools I've used
 
 TypeScript · JavaScript · Python · React · Next.js · Vite · Tailwind CSS · Firebase · WebRTC · WebSockets · Canvas · WebAssembly · Selenium · pandas
 
-Each project README covers setup, implementation details, and limitations.
+Each project's README covers setup, implementation details, and limitations.
