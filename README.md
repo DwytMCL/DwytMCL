@@ -4,6 +4,8 @@ I'm a Computer Engineering student at **Mapúa Malayan Colleges Laguna**, explor
 
 ## Featured: anysite-mcp
 
+[![npm](https://img.shields.io/npm/v/anysite-mcp?style=flat-square&color=cb3837)](https://www.npmjs.com/package/anysite-mcp) [![CI](https://img.shields.io/github/actions/workflow/status/DwytMCL/anysite-mcp/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/DwytMCL/anysite-mcp/actions/workflows/ci.yml) [![license](https://img.shields.io/github/license/DwytMCL/anysite-mcp?style=flat-square&color=555)](https://github.com/DwytMCL/anysite-mcp/blob/main/LICENSE)
+
 **Your agent learns a website once, then keeps it as a tool. Signed in as you, on your own computer.**
 
 [anysite-mcp](https://github.com/DwytMCL/anysite-mcp) is an MCP server that drives a real Chrome on your machine. Each site gets its own browser profile that you sign in to once, by hand. When the agent finishes a job, it can save the steps as a **shortcut**, and that shortcut becomes a new tool it can call in one step next time.
@@ -14,12 +16,15 @@ I'm a Computer Engineering student at **Mapúa Malayan Colleges Laguna**, explor
 - **Gets faster with use.** Shortcuts are tested before they're saved and repair themselves when a site renames a button.
 - **Learns by watching.** Record a job once by hand and it becomes a tool.
 - **You set the limits.** Per site: read-only, ask before sending or buying, and which domains it may open.
+- **A shared library.** Community shortcuts are checked against the live sites every week, and you can search them from the terminal.
+
+The latest release, 0.7.0, writes down what 1.0 will keep stable: tools, the command line, settings, and the shortcut, pack and library formats, each with a version number so older files keep working. The [stability list](https://github.com/DwytMCL/anysite-mcp/blob/main/docs/stability.md) and [threat model](https://github.com/DwytMCL/anysite-mcp/blob/main/docs/threat-model.md) are in the repository.
 
 ```bash
 claude mcp add anysite -- npx -y anysite-mcp
 ```
 
-[Repository](https://github.com/DwytMCL/anysite-mcp) · [npm](https://www.npmjs.com/package/anysite-mcp) · [Shortcut Library](https://dwytmcl.github.io/anysite-mcp/)
+[Repository](https://github.com/DwytMCL/anysite-mcp) · [npm](https://www.npmjs.com/package/anysite-mcp) · [Shortcut Library](https://dwytmcl.github.io/anysite-mcp/) · [Changelog](https://github.com/DwytMCL/anysite-mcp/blob/main/CHANGELOG.md)
 
 ## More AI agent tools
 
