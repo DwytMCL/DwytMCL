@@ -6,8 +6,6 @@ I'm a Computer Engineering student at **Mapúa Malayan Colleges Laguna**, explor
 
 [![npm](https://img.shields.io/npm/v/anysite-mcp?style=flat-square&color=cb3837)](https://www.npmjs.com/package/anysite-mcp) [![CI](https://img.shields.io/github/actions/workflow/status/DwytMCL/anysite-mcp/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/DwytMCL/anysite-mcp/actions/workflows/ci.yml) [![license](https://img.shields.io/github/license/DwytMCL/anysite-mcp?style=flat-square&color=555)](https://github.com/DwytMCL/anysite-mcp/blob/main/LICENSE)
 
-[![anysite MCP server](https://mcprush.com/badge/anysite-mcp/card.svg?theme=light)](https://mcprush.com/to/anysite-mcp?ref=badge)
-
 **Your agent learns a website once, then keeps it as a tool. Signed in as you, on your own computer.**
 
 [anysite-mcp](https://github.com/DwytMCL/anysite-mcp) is an MCP server that drives a real Chrome on your machine. Each site gets its own browser profile that you sign in to once, by hand. When the agent finishes a job, it can save the steps as a **shortcut**, and that shortcut becomes a new tool it can call in one step next time.
