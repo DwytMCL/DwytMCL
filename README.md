@@ -18,11 +18,13 @@ I'm a Computer Engineering student at **Mapúa Malayan Colleges Laguna**, explor
 - **You set the limits.** Per site: read-only, ask before sending or buying, and which domains it may open.
 - **A shared library.** Community shortcuts are checked against the live sites every week, and you can search them from the terminal.
 
-The latest release, 0.7.0, writes down what 1.0 will keep stable: tools, the command line, settings, and the shortcut, pack and library formats, each with a version number so older files keep working. The [stability list](https://github.com/DwytMCL/anysite-mcp/blob/main/docs/stability.md) and [threat model](https://github.com/DwytMCL/anysite-mcp/blob/main/docs/threat-model.md) are in the repository.
+The latest release, 0.8.0, is about reliability. A Chrome that crashes is replaced on the next call, a failed Chrome start says why and how to fix it, a tool call that hangs gives up after 180 seconds instead of leaving the agent waiting, and `doctor --json` hands shortcut health checks to scripts and CI. It also fixes several Gemini and NotebookLM issues. The release before it, 0.7.0, wrote down what 1.0 will keep stable: tools, the command line, settings, and the shortcut, pack and library formats. The [stability list](https://github.com/DwytMCL/anysite-mcp/blob/main/docs/stability.md) and [threat model](https://github.com/DwytMCL/anysite-mcp/blob/main/docs/threat-model.md) are in the repository.
 
 ```bash
 claude mcp add anysite -- npx -y anysite-mcp
 ```
+
+It also works in Cursor, VS Code, Claude Desktop and any other MCP client; the repository has one-click install buttons for Cursor and VS Code.
 
 [Repository](https://github.com/DwytMCL/anysite-mcp) · [npm](https://www.npmjs.com/package/anysite-mcp) · [Shortcut Library](https://dwytmcl.github.io/anysite-mcp/) · [Changelog](https://github.com/DwytMCL/anysite-mcp/blob/main/CHANGELOG.md)
 
